@@ -1,0 +1,54 @@
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: black;
+  margin-bottom: 23px;
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttonLogin {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #2563eb; 
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.buttonCreate {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #23943d;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
